@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Poppins&display=swap');
+
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+
+.landingPage {
+    position: absolute;
+    left: 7%;
+    /* border: 1px solid blue; */
+    width: 1180px;
+    height: 600px;
+}
+
+.leftColumn {
+    float: left;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 5%;
+}
+
+.leftColumn h1{
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #554D89;
+}
+
+.leftColumn p{
+    width: 50%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #5B5766;
+    margin-bottom: 40px;
+}
+
+.leftColumn button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    /* background-color: #6852ED; */
+    background-image: linear-gradient(90deg, #6852ED, #BA43FC);
+    border: none;
+}
+
+.leftColumn button:hover{
+    transform: scale(1.05);
+}
+
+.leftColumn a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #554D89;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.rightColumn {
+    position: absolute;
+    right: 5%;
+}
+
+.rightColumn img{
+    height: 750px;
+}
+
+.cardsContainer{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 700px;
+    margin-bottom: 50px;
+}
+
+.regularCard{
+    float: left;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #E1E4ED;
+    width: 360px;
+    height: 230px;
+    margin: 10px;
+    transform: scale(1.);
+}
+
+.regularCard:hover{
+    transform: scale(1.05);
+}
+
+.regularCard h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #554D89;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.regularCard p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #716C80;
+    margin-left: 30px;
+}
+
+.cardsContainer i{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.active{
+    background-color: #6852ED;
+    background-image: linear-gradient(90deg, #6852ED, #BA43FC);
+}
+
+.active h5{
+    color: #FFFFFF;
+}
+
+.active p{
+    color: #FFFFFF;
+}
+
+.active i{
+    color: #FFFFFF;
+}
+
+.dividerContainer{
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    height: 320px;
+}
+
+.dividerBackground{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid red; */
+    background-color: #6852ED;
+    background-image: linear-gradient(180deg, #6852ED, #BA43FC);
+    opacity: 0.05;
+}
+
+.bigBall {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.regularBall{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.smallBall{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+#ball1{
+    background-color: #BA43FC;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+
+#ball2{
+    background-color: #6852ED;
+    position: absolute;
+    bottom: 40px;
+    right: 270px; 
+}
+
+#ball3{
+    background-color: #6852ED;
+    position: absolute;
+    top: 220px;
+    left: 270px; 
+}
+
+#ball4{
+    background-color: #BA43FC;
+    position: absolute;
+    top: 60px;
+    right: -50px; 
+}
+
+#ball5{
+    background-color: #BA43FC;
+    position: absolute;
+    top: 70px;
+    right: 450px; 
+}
+
+#ball6{
+    background-color: #6852ED;
+    position: absolute;
+    top: 40px;
+    left: 400px; 
+}
+
+.dividerTextBox{
+    /* border: 1px solid blue; */
+    position: absolute;
+    top: 0;
+    left: 470px;
+    width: 400px;
+    height: 100%;
+    text-align: center;
+}
+
+.dividerContainer h5{
+    /* border: 1px solid red; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #554D89;
+    margin-top: 130px;
+}
+
+.dividerContainer p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #716C80;
+}
+
+.priceCardContainer{
+    /* border: 1px solid blue; */
+    position: absolute;
+    top: 1350px;
+    width: 100%;
+    height: 615px;
+}
+
+.priceCard{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 360px;
+    height: 615px;
+    border-radius: 10px;
+    display: block;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 20px #E1E4ED;
+}
+
+.priceCard h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #554D89;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.underline{
+    height: 2px;
+    width: 40px;
+    background-color: #BA43FC;
+    margin-left: 50px;
+    /* margin-bottom: 10px; */
+}
+
+.priceCard h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #554D89;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.monthly{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #5B5766;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.priceCard ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.priceCard li{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #5B5766;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+li span{
+    margin-right: 10px;
+}
+
+.priceCard button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 190px;
+    height: 50px;
+    border-radius: 25px;
+    /* background-color: #6852ED; */
+    background-image: linear-gradient(90deg, #6852ED, #BA43FC);
+    border: none;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.priceCard button:hover{
+    transform: scale(1.05);
+}
+
+#standardCard {
+    position: absolute;
+    left: 400px;
+}
+
+#advanceCard {
+    position: absolute;
+    left: 800px;
+}
+
+.footer{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 2100px;
+    width: 100%;
+    display: flex;
+    float: left;
+}
+
+.footer p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #5B5766;
+}
+
+.footer h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #5B5766;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contactContainer{
+    /* border: 1px solid blue; */
+    width: 33%;
+    /* color: #FFFFFF; */
+}
+
+.contactContainer h6{
+    color: #FFFFFF;
+}
+
+.contactContainer p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.phoneContainer{
+    display: flex;
+    /* margin-top: 20px; */
+}
+
+.phoneLeft{
+    /* border: 1px solid magenta; */
+    margin-right: 20px;
+}
+
+.phoneLeft p{
+    margin: 0;
+    padding: 0;
+}
+
+.phoneRight p{
+    margin: 0;
+    padding: 0;
+}
+
+#phoneNumber{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.contactBall{
+    position: absolute;
+    bottom: -300px;
+    left: -400px;
+    background-color: #6852ED;
+    width: 800px;
+    height: 450px;
+    border-top-right-radius: 225px;
+    border-bottom-right-radius: 225px;
+    transform: rotate(315deg);
+    z-index: -1;
+}
+
+.linksContainer{
+    /* border: 1px solid green; */
+    width: 33%;
+}
+
+.linksContainer ul{
+    columns: 2;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 150px;
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #5B5766;
+}
+
+.linksContainer li{
+    margin: 5px;
+}
+
+.subscribeContainer{
+    /* border: 1px solid magenta; */
+    width: 33%;
+}
+
+.subscribeContainer input{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #5B5766;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #6852ED;
+}
+
+.subscribeContainer input::placeholder{
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
